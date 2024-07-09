@@ -12,7 +12,9 @@ public interface Palindrome {
             if (word.equalsIgnoreCase(reversed)){
                 System.out.println("Word "+word+" is palindrome");
             }else {
+
                 System.out.println("Word "+word+" is not palindrome");
+
             }
     }
 }
